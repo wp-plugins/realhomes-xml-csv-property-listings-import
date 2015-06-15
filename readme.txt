@@ -1,6 +1,6 @@
 === Import Property Listings into RealHomes ===
 Contributors: soflyy, wpallimport
-Tags: Advanced CSV Import, advanced xml import, bulk csv import, bulk data import, bulk xml import, csv, csv import, csv importer, csv to custom post type, datafeed, import, import CSV, import csv to wordpress, import XML, import xml to wordpress, migrate, wordpress csv import, wordpress xml import, xml, XML Import, xml to custom post type, real estate, import real estate, import real estate listings, realhomes, import realhomes, import realhomes properties, import realhomes listings
+Tags: real estate, import real estate, import real estate listings, import properties, import property listings, realhomes, import realhomes, import realhomes properties, import realhomes listings
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.1.0
@@ -13,11 +13,12 @@ Easily import property listings from any XML or CSV file to the RealHomes theme 
 
 The RealHomes add-on for [WP All Import](http://wordpress.org/plugins/wp-all-import/) makes it easy to bulk import your property listings to the RealHomes theme in less than 10 minutes.
 
-The left side of the plugin looks just like RealHomes, and the right side displays a property listing from your XML/CSV file.
-
-**Drag & drop the data from your XML or CSV into the RealHomes fields to import it.**
+The left side of the plugin looks just like RealHomes, and the right side displays a property listing from your XML/CSV file. Then you can simply drag & drop the data from your XML or CSV into the RealHomes fields to import it.
 
 The importer is so intuitive it is almost like manually adding a property listing in RealHomes.
+
+We have several other real estate add-ons available, each specific to a different theme. This is a walkthrough of the Realia Add-On, which is very similar to the RealHomes Add-On.
+https://youtu.be/_wvz0FfbutA
 
 = Why you should use the RealHomes add-on for WP All Import =
 
@@ -35,13 +36,6 @@ The importer is so intuitive it is almost like manually adding a property listin
 
 * Supports files of practically unlimited size by automatically splitting them into chunks. WP All Import is limited solely by your server settings.
 
-= RealHomes CSV Imports =
-Of course, XML files can have complex structures, but for CSV files, you can easily edit them and change the column names.
-
-When importing CSV files, you should use standard UTF-8 character encoding if you are having any trouble with CSV imports containing special characters. But other than that, there are no special requirements.
-
-This importer is the best option for RealHomes CSV import tasks - it is extremely flexible when doing CSV imports because you don't need to edit your CSV files to import them to RealHomes. WP All Import can import ANY CSV file to RealHomes. You don't need to lay out your data in a specific way and you don't need your CSV to have specific column names. WP All Import's drag & drop interface provides you with a visual way to map the columns in your CSV file to the appropriate fields in RealHomes.
-
 = WP All Import Professional Edition =
 
 The RealHomes add-on for WP All Import is fully compatible with [the free version of WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import"). 
@@ -56,7 +50,7 @@ However, [the professional edition of WP All Import](http://www.wpallimport.com/
 
 * Access to premium technical support.
 
-[Upgrade to the professional edition of WP All Import now.](http://www.wpallimport.com/order-now/)
+[Upgrade to the professional edition of WP All Import now.](http://www.wpallimport.com/order-now/?utm_source=free-plugin&utm_medium=dot-org&utm_campaign=realhomes)
 
 == Installation ==
 
