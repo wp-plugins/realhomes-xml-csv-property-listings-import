@@ -7,11 +7,11 @@ Requires at least: 4.1.0
 Tested up to: 4.2.2
 Stable tag: 1.0.0
 
-Easily import property listings from any XML or CSV file to the RealHomes theme with the RealHomes add-on for WP All Import.
+Easily import property listings from any XML or CSV file to the RealHomes theme with the RealHomes Add-On for WP All Import.
 
 == Description ==
 
-The RealHomes add-on for [WP All Import](http://wordpress.org/plugins/wp-all-import/) makes it easy to bulk import your property listings to the RealHomes theme in less than 10 minutes.
+The RealHomes Add-On for [WP All Import](http://wordpress.org/plugins/wp-all-import/) makes it easy to bulk import your property listings to the RealHomes theme in less than 10 minutes.
 
 The left side of the plugin looks just like RealHomes, and the right side displays a property listing from your XML/CSV file. Then you can simply drag & drop the data from your XML or CSV into the RealHomes fields to import it.
 
@@ -21,7 +21,7 @@ We have several other real estate add-ons available, each specific to a differen
 
 https://www.youtube.com/watch?v=_wvz0FfbutA
 
-= Why you should use the RealHomes add-on for WP All Import =
+= Why you should use the RealHomes Add-On for WP All Import =
 
 * Instead of using the Custom Fields section of WP All Import, you are shown the fields like Property Address, Price, etc. in plain English.
 
@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=_wvz0FfbutA
 
 = WP All Import Professional Edition =
 
-The RealHomes add-on for WP All Import is fully compatible with [the free version of WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import"). 
+The RealHomes Add-On for WP All Import is fully compatible with [the free version of WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import"). 
 
 However, [the professional edition of WP All Import](http://www.wpallimport.com/order-now/) includes premium support and adds the following features:
 
@@ -57,25 +57,25 @@ However, [the professional edition of WP All Import](http://www.wpallimport.com/
 
 First, install [WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import").
 
-Then install the RealHomes add-on.
+Then install the RealHomes Add-On.
 
-To install the RealHomes add-on, either:
+To install the RealHomes Add-On, either:
 
 * Upload the plugin from the Plugins page in WordPress
 
 * Unzip import-property-listings-into-realhomes.zip and upload the contents to /wp-content/plugins/, and then activate the plugin from the Plugins page in WordPress
 
-The RealHomes add-on will appear in the Step 3 of WP All Import.
+The RealHomes Add-On will appear in the Step 3 of WP All Import.
 
 == Frequently Asked Questions ==
 
-= WP All Import works with any theme, so what’s the point of using the RealHomes add-on? =
+= WP All Import works with any theme, so what’s the point of using the RealHomes Add-On? =
 
-Aside from making your import easier and simpler, the RealHomes add-on will fully support your theme’s various image galleries and file attachments as well as allow you to easily import location data.
+Aside from making your import easier and simpler, the RealHomes Add-On will fully support your theme’s various image galleries and file attachments as well as allow you to easily import location data.
 
 = Can I import location data for my properties? =
 
-The RealHomes add-on for WP All Import uses the Google Maps API to import your location data. For free, and without registration, the API allows you to make 2,500 requests per day. If you need more than that you can create a Google for Work account to make up to 100,000 requests per day.
+The RealHomes Add-On for WP All Import uses the Google Maps API to import your location data. For free, and without registration, the API allows you to make 2,500 requests per day. If you need more than that you can create a Google for Work account to make up to 100,000 requests per day.
 
 == Changelog ==
 
