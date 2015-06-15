@@ -18,7 +18,8 @@ The left side of the plugin looks just like RealHomes, and the right side displa
 The importer is so intuitive it is almost like manually adding a property listing in RealHomes.
 
 We have several other real estate add-ons available, each specific to a different theme. This is a walkthrough of the Realia Add-On, which is very similar to the RealHomes Add-On.
-https://youtu.be/_wvz0FfbutA
+
+https://www.youtube.com/watch?v=_wvz0FfbutA
 
 = Why you should use the RealHomes add-on for WP All Import =
 
