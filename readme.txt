@@ -41,7 +41,7 @@ https://www.youtube.com/watch?v=_wvz0FfbutA
 
 The RealHomes Add-On for WP All Import is fully compatible with [the free version of WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import"). 
 
-However, [the professional edition of WP All Import](http://www.wpallimport.com/order-now/) includes premium support and adds the following features:
+However, [the professional edition of WP All Import](http://www.wpallimport.com/order-now/?utm_source=free-plugin&utm_medium=dot-org&utm_campaign=realhomes) includes premium support and adds the following features:
 
 * Import files from a URL: Download and import files from external websites, even if they are password protected with HTTP authentication. 
 
@@ -90,4 +90,4 @@ We do try to handle support for our free version users at the following e-mail a
 
 E-mail: support@wpallimport.com
 
-Support for free version customers is not guaranteed and based on ability. For premium support, purchase [WP All Import Pro](http://www.wpallimport.com/order-now/).
+Support for free version customers is not guaranteed and based on ability. For premium support, purchase [WP All Import Pro](http://www.wpallimport.com/order-now/?utm_source=free-plugin&utm_medium=dot-org&utm_campaign=realhomes).
