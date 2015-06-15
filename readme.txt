@@ -11,7 +11,7 @@ Easily import property listings from any XML or CSV file to the RealHomes theme 
 
 == Description ==
 
-The RealHomes Add-On for [WP All Import](http://wordpress.org/plugins/wp-all-import/) makes it easy to bulk import your property listings to the RealHomes theme in less than 10 minutes.
+The RealHomes Add-On for [WP All Import](http://www.wpallimport.com/order-now/?utm_source=free-plugin&utm_medium=dot-org&utm_campaign=realhomes) makes it easy to bulk import your property listings to the RealHomes theme in less than 10 minutes.
 
 The left side of the plugin looks just like RealHomes, and the right side displays a property listing from your XML/CSV file. Then you can simply drag & drop the data from your XML or CSV into the RealHomes fields to import it.
 
