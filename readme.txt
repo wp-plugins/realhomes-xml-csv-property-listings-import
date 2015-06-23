@@ -1,4 +1,4 @@
-=== Import Property Listings into RealHomes Theme ===
+=== Import Property Listings to RealHomes Theme ===
 Contributors: soflyy, wpallimport
 Tags: real estate, import real estate, import real estate listings, import properties, import property listings, realhomes, import realhomes, import realhomes properties, import realhomes listings
 License: GPLv2 or later
