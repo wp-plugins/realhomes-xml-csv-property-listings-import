@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=_wvz0FfbutA
 
 * Easily import gallery images, property attachments, sliders, and property videos.
 
-* Supports files in any format and structure. There are no requirements that the data in your file be organized in a certain way. RealHomes CSV imports are easy, no matter the structure of your file. RealHomes XML imports are flexible and work with any XML file.
+* Supports files in any format and structure. There are no requirements that the data in your file be organized in a certain way. CSV imports into RealHomes is easy, no matter the structure of your file.
 
 * Supports files of practically unlimited size by automatically splitting them into chunks. WP All Import is limited solely by your server settings.
 
