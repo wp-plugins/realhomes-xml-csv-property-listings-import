@@ -1,13 +1,13 @@
 === Import Properties into RealHomes Theme ===
 Contributors: soflyy, wpallimport
-Tags: real estate, import real estate, import real estate listings, import properties, import property listings, realhomes, import realhomes, import realhomes properties, import realhomes listings
+Tags: real estate, import real estate, import real estate listings, import properties, import property listings, realhomes, real homes, import real homes, import real homes properties, import real homes listings, import realhomes, import realhomes properties, import realhomes listings
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.1.0
 Tested up to: 4.2.2
 Stable tag: 1.0.0
 
-Easily import property listings from any XML or CSV file to the RealHomes theme with the RealHomes Add-On for WP All Import.
+Easily import property listings from any XML or CSV file to the Real Homes theme with the RealHomes Add-On for WP All Import.
 
 == Description ==
 
