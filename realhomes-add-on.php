@@ -4,7 +4,7 @@
 Plugin Name: WP All Import - Real Homes Add-On
 Plugin URI: http://www.wpallimport.com/
 Description: Supporting imports into the Real Homes theme.
-Version: 1.0
+Version: 1.0.1
 Author: Soflyy
 */
 
