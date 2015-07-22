@@ -47,23 +47,10 @@ $realhomes_addon->add_field( 'REAL_HOMES_property_garage', 'Garages', 'text', nu
 
 $realhomes_addon->add_field( 'REAL_HOMES_agents', 'Agent', 'text' );
 
-$realhomes_addon->add_field( 'REAL_HOMES_add_in_slider', 'Add this property to Homepage Slider?', 'radio', array(
-    'no' => 'No',
-    'yes' =>'Yes',
+$realhomes_addon->add_field( 'REAL_HOMES_property_map', 'Show Map', 'radio', array(
+    '1' => 'Yes',
+    '0' => 'No' 
 ) );
-
-$realhomes_addon->add_field( 'REAL_HOMES_slider_image', 'Slider Image', 'image', null, 'Recommended image size is 2000px by 700px. May use bigger or smaller image but keep the same height to width ratio and use the exact same size for all images in slider.' );
-
-$realhomes_addon->add_field( 'REAL_HOMES_gallery_slider_type', 'Gallery Type', 'radio', array(
-    'thumb-on-right' => 'Thumbnails on right',
-    'thumb-on-bottom' => 'Thumbnails on bottom' 
-) );
-
-$realhomes_addon->add_field( 'REAL_HOMES_page_banner_image', 'Top Banner Image', 'image', null, 'Optional: If left unset default banner image uploaded to theme options will be used. Image must have minimum width of 2000px and minimum height of 230px.' );
-
-$realhomes_addon->add_field( 'REAL_HOMES_tour_video_url', 'Virtual Tour Video URL', 'text', null, 'Provide virtual tour video URL. YouTube, Vimeo, SWF File and MOV File are supported.' );
-
-$realhomes_addon->add_field( 'REAL_HOMES_tour_video_image', 'Virtual Video Tour Image', 'image', null, 'Will be displayed as a place holder. Required for the video to be displayed. Minimum width of 818px and minimum height 417px. Larger sizes will be cropped.' );
 
 $realhomes_addon->add_field(
 	'location_settings',
@@ -195,7 +182,26 @@ $realhomes_addon->add_options( null, 'Advanced Settings', array(
         'agent_info' => 'Agent Information',
         'my_profile_info' => 'Author Information',
         'none' => 'Hide Information Box' 
-    ) )
+    ) ),
+
+    $realhomes_addon->add_field( 'REAL_HOMES_add_in_slider', 'Add this property to Homepage Slider?', 'radio', array(
+    'no' => 'No',
+    'yes' =>'Yes',
+	) ),
+
+	$realhomes_addon->add_field( 'REAL_HOMES_slider_image', 'Slider Image', 'image', null, 'Recommended image size is 2000px by 700px. May use bigger or smaller image but keep the same height to width ratio and use the exact same size for all images in slider.' ),
+
+	$realhomes_addon->add_field( 'REAL_HOMES_gallery_slider_type', 'Gallery Type', 'radio', array(
+	    'thumb-on-right' => 'Thumbnails on right',
+	    'thumb-on-bottom' => 'Thumbnails on bottom' 
+	) ),
+
+	$realhomes_addon->add_field( 'REAL_HOMES_page_banner_image', 'Top Banner Image', 'image', null, 'Optional: If left unset default banner image uploaded to theme options will be used. Image must have minimum width of 2000px and minimum height of 230px.' ),
+
+	$realhomes_addon->add_field( 'REAL_HOMES_tour_video_url', 'Virtual Tour Video URL', 'text', null, 'Provide virtual tour video URL. YouTube, Vimeo, SWF File and MOV File are supported.' ),
+
+	$realhomes_addon->add_field( 'REAL_HOMES_tour_video_image', 'Virtual Video Tour Image', 'image', null, 'Will be displayed as a place holder. Required for the video to be displayed. Minimum width of 818px and minimum height 417px. Larger sizes will be cropped.' ),
+
 ) );
 
 $realhomes_addon->set_import_function( 'realhomes_addon_import' );
@@ -226,7 +232,8 @@ function realhomes_addon_import( $post_id, $data, $import_options ) {
         'REAL_HOMES_featured',
         'REAL_HOMES_add_in_slider',
         'REAL_HOMES_agent_display_option',
-        'REAL_HOMES_gallery_slider_type' 
+        'REAL_HOMES_gallery_slider_type',
+        'REAL_HOMES_property_map'
     );
     
     // image fields
