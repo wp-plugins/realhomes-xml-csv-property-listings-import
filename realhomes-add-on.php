@@ -4,7 +4,7 @@
 Plugin Name: WP All Import - Real Homes Add-On
 Plugin URI: http://www.wpallimport.com/
 Description: Supporting imports into the Real Homes theme.
-Version: 1.0.2
+Version: 1.0.3
 Author: Soflyy
 */
 
@@ -48,8 +48,8 @@ $realhomes_addon->add_field( 'REAL_HOMES_property_garage', 'Garages', 'text', nu
 $realhomes_addon->add_field( 'REAL_HOMES_agents', 'Agent', 'text' );
 
 $realhomes_addon->add_field( 'REAL_HOMES_property_map', 'Show Map', 'radio', array(
-    '1' => 'Yes',
-    '0' => 'No' 
+    '0' => 'Yes',
+    '1' => 'No' 
 ) );
 
 $realhomes_addon->add_field(
@@ -256,14 +256,28 @@ function realhomes_addon_import( $post_id, $data, $import_options ) {
 
                     $id = $data[$field]['attachment_id'];
 
-                    update_post_meta( $post_id, $field, $id );
+	             	if ( strlen( $id )  == 0 ) {
+
+	            		delete_post_meta( $post_id, $field );
+
+	            	} else {
+
+	                    update_post_meta( $post_id, $field, $id );
+	                }
 
                 }
 
             } else {
 
-                update_post_meta( $post_id, $field, $data[$field] );
+            	if ( strlen( $data[$field] ) == 0 ) {
 
+            		delete_post_meta( $post_id, $field );
+
+            	} else {
+
+	                update_post_meta( $post_id, $field, $data[$field] );
+
+	            }
             }
         }
     }

@@ -5,7 +5,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.1.0
 Tested up to: 4.2.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 
 Easily import property listings from any XML or CSV file to the Real Homes theme with the RealHomes Add-On for WP All Import.
 
@@ -85,6 +85,9 @@ Aside from making your import easier and simpler, the RealHomes Add-On will full
 The RealHomes Add-On for WP All Import uses the Google Maps API to import your location data. For free, and without registration, the API allows you to make 2,500 requests per day. If you need more than that you can create a Google for Work account to make up to 100,000 requests per day.
 
 == Changelog ==
+
+= 1.0.3 =
+* Bug fix related to radio options and empty fields
 
 = 1.0.2 =
 * Fix admin notice bug
